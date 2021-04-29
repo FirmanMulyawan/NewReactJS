@@ -1,6 +1,10 @@
 .closeBtn {
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
+}
+.testBtn {
+	width: 100px;
+	height: 100px;
 }
 .container {
 	background-color: red;

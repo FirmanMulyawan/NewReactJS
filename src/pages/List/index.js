@@ -10,8 +10,14 @@ import {
 	dislike,
 	like,
 	point,
+	newItem,
+	bestSeller,
+	hotItem,
+	fullStar,
+	halfStar,
 } from '../../assets'
 import './list.css'
+import Rating from './Rating/'
 
 const List = () => {
 	return (
@@ -24,8 +30,16 @@ const List = () => {
 			<img src={Polygon} alt='closeBtn' className='closeBtn' />
 			<img src={chevrondown} alt='closeBtn' className='closeBtn' />
 			<img src={dislike} alt='closeBtn' className='closeBtn' />
-			<img src={like} alt='closeBtn'  className='closeBtn'/>
-			<img src={point} alt='closeBtn'  className='closeBtn'/>
+			<img src={like} alt='closeBtn' className='closeBtn' />
+			<img src={point} alt='closeBtn' className='closeBtn' />
+			<img src={newItem} alt='closeBtn' className='closeBtn' />
+			<img src={bestSeller} alt='closeBtn' className='closeBtn' />
+			<img src={hotItem} alt='closeBtn' className='closeBtn' />
+			<img src={fullStar} alt='closeBtn' className='closeBtn' />
+			<img src={halfStar} alt='closeBtn' className='closeBtn' />
+			<div>
+				<Rating value={2.5} />
+			</div>
 		</div>
 	)
 }
