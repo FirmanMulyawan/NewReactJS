@@ -1,6 +1,6 @@
 import { Routes } from '../config'
 
-function App() {
+const App =()=> {
 	return (
 		<Routes/>
 	)
